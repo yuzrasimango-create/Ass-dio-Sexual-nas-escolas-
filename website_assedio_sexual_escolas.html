@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Website educativo sobre prevenção e denúncia do assédio sexual nas escolas em Moçambique.">
+<title>Escola Segura | Assédio sexual nas escolas</title>
+<style>
+:root{--navy:#142b4a;--teal:#087e83;--mint:#e9f7f4;--gold:#f3bd54;--ink:#243247;--muted:#607086;--white:#fff;--line:#dce6ed;--red:#b83b45}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#f7fafc}
+header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #10243a30}
+.nav{max-width:1120px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-weight:800;letter-spacing:.4px;font-size:1.08rem}.brand span{color:var(--gold)}
+nav{display:flex;gap:15px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-size:.88rem;font-weight:600}nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(120deg,#142b4a 0%,#087e83 100%);color:white;padding:76px 22px 70px}
+.hero-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;color:#c8f2e9;font-size:.78rem;font-weight:bold}
+h1{font-size:clamp(2.25rem,5vw,4rem);line-height:1.08;margin:12px 0 20px}
+.hero p{font-size:1.12rem;max-width:650px;color:#e8f5f5}
+.btn{display:inline-block;background:var(--gold);color:#192b40;text-decoration:none;padding:12px 20px;border-radius:8px;font-weight:800;margin-top:12px}
+.art{background:#ffffff17;border:1px solid #ffffff45;border-radius:24px;padding:24px;text-align:center}
+.art svg{width:min(100%,340px);height:auto}.art p{font-size:.88rem;margin:8px 0 0}
+main{max-width:1120px;margin:auto;padding:28px 22px 70px}
+section{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:85px}
+h2{color:var(--navy);font-size:1.8rem;margin:0 0 14px}
+h3{color:var(--teal);margin:0 0 8px}
+.lead{font-size:1.08rem;color:var(--muted);max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.card{background:white;padding:20px;border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px #142b4a08}
+.card p{margin:7px 0 0}.tag{display:inline-block;background:var(--mint);color:#08676b;padding:4px 9px;border-radius:20px;font-size:.78rem;font-weight:bold;margin-bottom:8px}
+.callout{background:#fff7e7;border-left:5px solid var(--gold);padding:18px 20px;border-radius:8px;margin:20px 0}
+.alert{background:#fff0f0;border-left:5px solid var(--red);padding:18px 20px;border-radius:8px;margin:20px 0}
+ul{padding-left:22px}li{margin:7px 0}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.step{background:white;border:1px solid var(--line);padding:17px;border-radius:12px}
+.step:before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;background:var(--teal);color:white;width:30px;height:30px;border-radius:50%;font-weight:bold;margin-right:8px}
+.number{font-size:1.55rem;font-weight:900;color:var(--navy);letter-spacing:1px}
+footer{background:var(--navy);color:#eaf2f8;padding:28px 22px;text-align:center}
+footer p{margin:5px}
+.small{font-size:.88rem;color:var(--muted)}
+a{color:#087e83}
+footer a{color:#aeece2}
+@media(max-width:760px){.hero-inner{grid-template-columns:1fr}.art{max-width:420px;margin:auto}.grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav{gap:10px 14px}nav a{font-size:.82rem}.hero{padding-top:48px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="nav">
+  <div class="brand">ESCOLA <span>SEGURA</span></div>
+  <nav aria-label="Navegação principal">
+   <a href="#inicio">Início</a><a href="#introducao">Introdução</a><a href="#tema">O tema</a><a href="#impactos">Consequências</a><a href="#prevencao">Prevenção</a><a href="#denuncia">Pedir ajuda</a><a href="#fontes">Fontes</a>
+  </nav>
+ </div>
+</header>
+<div class="hero" id="inicio">
+ <div class="hero-inner">
+  <div>
+   <div class="eyebrow">Informar • Prevenir • Proteger</div>
+   <h1>Assédio sexual<br>nas escolas</h1>
+   <p>Uma escola segura é um espaço onde todas as pessoas aprendem com dignidade, respeito e liberdade, sem medo de assédio, abuso ou intimidação.</p>
+   <a class="btn" href="#denuncia">Sabe como pedir ajuda →</a>
+  </div>
+  <div class="art" role="img" aria-label="Ilustração simbólica de estudantes protegidos por um escudo">
+   <svg viewBox="0 0 360 270" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="180" cy="130" r="112" fill="#ffffff" opacity=".12"/>
+    <path d="M180 28 L265 58 V125 C265 184 228 222 180 244 C132 222 95 184 95 125 V58Z" fill="#f3bd54" stroke="#fff" stroke-width="7"/>
+    <path d="M180 55 L240 76 V126 C240 168 214 195 180 213 C146 195 120 168 120 126 V76Z" fill="#087e83"/>
+    <circle cx="157" cy="111" r="16" fill="#fff"/><circle cx="204" cy="111" r="16" fill="#fff"/>
+    <path d="M132 174 Q157 133 180 166 Q204 133 228 174" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M171 147 L180 156 L198 136" fill="none" stroke="#f3bd54" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
+   <p>Respeito e protecção para todos os estudantes.</p>
+  </div>
+ </div>
+</div>
+<main>
+<section id="introducao">
+ <h2>1. Introdução</h2>
+ <p>O assédio sexual nas escolas é um problema que ameaça a segurança, a dignidade e o direito à educação. Pode acontecer entre estudantes ou envolver professores, funcionários e outras pessoas ligadas à comunidade escolar. Muitas vítimas sentem medo, vergonha ou receio de não serem acreditadas, por isso é importante criar um ambiente em que possam falar e receber apoio.</p>
+ <p>Este website procura informar a comunidade escolar, ajudar a reconhecer comportamentos inadequados e divulgar formas seguras de prevenção e denúncia. Nenhum estudante deve ser obrigado a aceitar comportamentos de natureza sexual para obter notas, benefícios ou tratamento favorável.</p>
+</section>
+<section id="objectivos">
+ <h2>2. Objectivos</h2>
+ <div class="grid">
+  <article class="card"><span class="tag">Objectivo geral</span><h3>Promover uma escola segura</h3><p>Contribuir para a prevenção e o combate ao assédio sexual no ambiente escolar, defendendo o respeito pelos direitos e pela dignidade dos estudantes.</p></article>
+  <article class="card"><span class="tag">Objectivo específico</span><h3>Informar</h3><p>Explicar o que é o assédio sexual e ajudar a reconhecer as suas diferentes manifestações.</p></article>
+  <article class="card"><span class="tag">Objectivo específico</span><h3>Prevenir e orientar</h3><p>Apresentar consequências, medidas preventivas e caminhos para procurar ajuda e denunciar com segurança.</p></article>
+ </div>
+</section>
+<section id="tema">
+ <h2>3. O que é assédio sexual?</h2>
+ <p>É qualquer comportamento de natureza sexual indesejado, imposto ou repetido, que desrespeita a vontade, a dignidade ou a segurança de outra pessoa. No contexto escolar, pode ocorrer presencialmente ou através do telemóvel e das redes sociais. A responsabilidade é de quem pratica o comportamento, nunca da vítima.</p>
+ <div class="grid">
+  <article class="card"><h3>Verbal</h3><p>Comentários, piadas, propostas, perguntas íntimas ou ameaças de conteúdo sexual que a pessoa não deseja.</p></article>
+  <article class="card"><h3>Não verbal ou visual</h3><p>Gestos obscenos, exposição de imagens sexuais ou observação insistente e intimidatória com intenção sexual.</p></article>
+  <article class="card"><h3>Físico ou digital</h3><p>Toques sem consentimento, tentativa de beijo, aproximação forçada, mensagens insistentes ou partilha de imagens íntimas sem autorização.</p></article>
+ </div>
+ <div class="callout"><strong>Atenção:</strong> pedir favores sexuais em troca de notas, aprovação, dinheiro, materiais ou outras vantagens é uma forma grave de abuso de poder. O silêncio ou o medo não significam consentimento.</div>
+</section>
+<section id="causas">
+ <h2>4. Factores que favorecem o problema</h2>
+ <ul>
+  <li>Desigualdade de poder entre adultos e estudantes ou entre colegas.</li>
+  <li>Falta de informação sobre direitos, limites pessoais e consentimento.</li>
+  <li>Normalização de comentários sexistas, humilhações e comportamentos abusivos.</li>
+  <li>Medo de represálias, vergonha e falta de confiança nos canais de denúncia.</li>
+  <li>Fiscalização insuficiente e ausência de respostas claras por parte da escola.</li>
+ </ul>
+ <p class="small">Estes factores ajudam a compreender o problema; não justificam nem desculpam o assédio.</p>
+</section>
+<section id="impactos">
+ <h2>5. Consequências para as vítimas e para a escola</h2>
+ <div class="grid">
+  <article class="card"><h3>Na saúde emocional</h3><p>Medo, ansiedade, tristeza, vergonha, perda de confiança e sensação de insegurança.</p></article>
+  <article class="card"><h3>Na aprendizagem</h3><p>Dificuldade de concentração, faltas, queda do rendimento escolar e, em alguns casos, abandono dos estudos.</p></article>
+  <article class="card"><h3>Na comunidade</h3><p>Ambiente de desconfiança, discriminação, conflitos e enfraquecimento do direito de todos a aprender.</p></article>
+ </div>
+</section>
+<section id="prevencao">
+ <h2>6. Soluções e medidas de prevenção</h2>
+ <div class="grid">
+  <article class="card"><h3>Alunos</h3><ul><li>Respeitar os limites e o corpo dos outros.</li><li>Não partilhar mensagens ou imagens íntimas.</li><li>Apoiar colegas sem os culpar.</li><li>Comunicar situações preocupantes a um adulto de confiança.</li></ul></article>
+  <article class="card"><h3>Professores e funcionários</h3><ul><li>Manter uma conduta profissional e respeitosa.</li><li>Levar todas as denúncias a sério.</li><li>Não expor nem culpar a vítima.</li><li>Encaminhar o caso pelos procedimentos de protecção.</li></ul></article>
+  <article class="card"><h3>Encarregados e direcção</h3><ul><li>Conversar com os estudantes sem julgamentos.</li><li>Divulgar canais de denúncia.</li><li>Proteger a privacidade e evitar represálias.</li><li>Promover palestras, regras claras e acompanhamento.</li></ul></article>
+ </div>
+</section>
+<section id="denuncia">
+ <h2>7. O que fazer e onde pedir ajuda?</h2>
+ <p>Se tu ou alguém que conheces estiver a passar por uma situação de assédio, procura apoio. Não é necessário enfrentar o problema sozinho.</p>
+ <div class="steps">
+  <div class="step"><strong>Procura segurança.</strong><br>Afasta-te da situação, se for possível e seguro.</div>
+  <div class="step"><strong>Conta a alguém de confiança.</strong><br>Pode ser um familiar, professor de confiança, ponto focal de género ou responsável de protecção na escola.</div>
+  <div class="step"><strong>Faz a denúncia.</strong><br>Relata o que aconteceu à direcção ou às entidades competentes. Podes pedir que a tua identidade seja protegida.</div>
+  <div class="step"><strong>Procura apoio especializado.</strong><br>Uma unidade sanitária, serviço de apoio psicossocial ou autoridade competente pode orientar os passos seguintes.</div>
+ </div>
+ <div class="callout">
+  <h3>Contactos úteis em Moçambique</h3>
+  <p><strong>Linha Fala Criança: <span class="number">116</span></strong><br>Canal gratuito de apoio e comunicação de situações que afectam crianças.</p>
+  <p><strong>Linha Verde do Ministério da Educação e Cultura: <span class="number">800 480 700</span></strong><br>Canal divulgado para situações de violência no contexto escolar. Confirma a disponibilidade e o horário do serviço.</p>
+  <p class="small">Em caso de perigo imediato, procura uma esquadra/posto policial ou uma unidade sanitária. A escola deve encaminhar a situação às entidades competentes.</p>
+ </div>
+ <div class="alert"><strong>Importante:</strong> não publiques nomes, fotografias, mensagens privadas ou dados que identifiquem a vítima. Guarda apenas informações relevantes de forma segura e não confrontes sozinho a pessoa acusada. A vítima deve ser ouvida com respeito e sem pressão.</div>
+</section>
+<section id="conclusao">
+ <h2>8. Conclusão</h2>
+ <p>O assédio sexual nas escolas prejudica a dignidade, a segurança e o aproveitamento dos estudantes. A prevenção exige informação, respeito, regras claras e participação de toda a comunidade escolar. As denúncias devem ser tratadas com seriedade, confidencialidade e sem culpabilizar a vítima. Uma escola segura é responsabilidade de todos.</p>
+ <h3>Mensagem de sensibilização</h3>
+ <p><strong>O teu corpo, a tua dignidade e o teu direito de aprender merecem respeito. Assédio não é brincadeira. Denunciar é procurar protecção.</strong></p>
+</section>
+<section id="grupo">
+ <h2>9. Elementos do grupo</h2>
+ <div class="grid">
+  <article class="card"><h3>Darciesa</h3><p>Integrante do grupo</p></article>
+  <article class="card"><h3>Sara</h3><p>Integrante do grupo</p></article>
+  <article class="card"><h3>Yuzra</h3><p>Integrante do grupo</p></article>
+  <article class="card"><h3>Letícia Tíkia</h3><p>Integrante do grupo</p></article>
+ </div>
+</section>
+<section id="fontes">
+ <h2>10. Referências bibliográficas</h2>
+ <ul>
+  <li>UNICEF Moçambique. <em>Protecção contra a violência, exploração, abuso, negligência e práticas nocivas.</em> <a href="https://www.unicef.org/mozambique/en/protection-against-violence-exploitation-abuse-neglect-and-harmful-practices" target="_blank" rel="noopener">Consultar fonte</a>.</li>
+  <li>Ministério da Educação e Cultura / parceiros. <em>Prevenção da violência contra crianças e adolescentes na escola.</em> <a href="https://mept.org.mz/wp-content/uploads/2022/02/MecPrevViolencia_portugues.pdf" target="_blank" rel="noopener">Consultar documento</a>.</li>
+  <li>Imprensa Nacional de Moçambique. <em>Diploma Ministerial n.º 36/2019 — Regulamento de combate à corrupção, abuso e assédio sexual e todo tipo de abuso sexual nas escolas.</em> <a href="https://www.inm.gov.mz/pt-br/content/minist%C3%A9rio-da-ci%C3%AAncia-e-tecnologia-ensino-superior-e-t%C3%A9cnico-profissional-br-n%C2%BA-74-de-170419" target="_blank" rel="noopener">Consultar Boletim da República</a>.</li>
+  <li>Instituto de Educação Aberta e à Distância. <em>Violência baseada no género, abuso/assédio sexual — prevenção na escola.</em> <a href="https://ieda.gov.mz/jogareaprender/?page_id=137" target="_blank" rel="noopener">Consultar fonte</a>.</li>
+  <li>UNICEF Moçambique. <em>Prevenir e responder à violência contra crianças em Moçambique</em> (2024). <a href="https://www.unicef.org/mozambique/en/reports/preventing-and-responding-violence-against-children-mozambique" target="_blank" rel="noopener">Consultar relatório</a>.</li>
+ </ul>
+ <p class="small">Website educativo elaborado para fins escolares. Os contactos e procedimentos podem ser actualizados; confirma-os junto da escola ou dos serviços oficiais.</p>
+</section>
+</main>
+<footer>
+ <p><strong>ESCOLA SEGURA — Assédio sexual nas escolas</strong></p>
+ <p>Trabalho educativo | Darciesa • Sara • Yuzra • Letícia Tíkia</p>
+ <p>Respeito, protecção e educação para todos.</p>
+</footer>
+</body>
+</html>
